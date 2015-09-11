@@ -1,15 +1,6 @@
 ### Goal: Install and execute parallel clique percolation
 ### Author: Brooks Ambrose (brooksambrose@berkeley.edu)
 
-# Sparse checkout: only small data from repo, see README.md for details
-rm -fr ~/clique-percolation; mkdir ~/clique-percolation
-cd ~/clique-percolation
-git init
-git remote add origin 'http://www.github.com/brooksambrose/clique-percolation'
-git config core.sparsecheckout true
-echo '!/in99' > .git/info/sparse-checkout
-git pull origin master
-
 ### install igraph http://igraph.org/c/
 wget 'http://igraph.org/nightly/get/c/igraph-0.7.1.tar.gz'
 tar zxvf igraph-0.7.1.tar.gz
