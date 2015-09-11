@@ -20,3 +20,6 @@ cd cosparallel-code
 #TODO how to manage input and output for each data source
 
 ### run cosparallel, accepting input from maximal cliques and original weighted edgelist http://sourceforge.net/p/cosparallel/wiki/UserGuide/
+# zcat in49/bel2mel-49zcrel.txt.gz | cut -f1-2
+# to save into a file:
+# zcat in49/bel2mel-49zcrel.txt.gz | cut -f1-2 > zcrel.twocol.txt
