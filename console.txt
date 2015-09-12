@@ -1,0 +1,103 @@
+$ ./cos -P 1 input.mcliques
+k: 52 total: 1
+
+k: 28 total: 2
+
+k: 27 total: 1
+
+k: 26 total: 1
+
+k: 25 total: 1
+
+k: 23 total: 2
+
+k: 21 total: 3
+
+k: 20 total: 1
+
+k: 19 total: 1
+
+k: 18 total: 1
+
+k: 17 total: 2
+
+k: 16 total: 3
+
+k: 15 total: 1
+
+k: 14 total: 3
+
+k: 13 total: 11
+
+k: 12 total: 7
+
+k: 11 total: 17
+
+k: 10 total: 40
+
+k: 9 total: 71
+
+k: 8 total: 79
+
+k: 7 total: 135
+
+k: 6 total: 210
+
+k: 5 total: 323
+
+k: 4 total: 570
+
+k: 3 total: 993
+
+Chunk 1
+Done processing matrix chunks...
+Found	1	42-clique-communities
+Found	1	52-clique-communities
+Found	1	44-clique-communities
+Found	1	51-clique-communities
+Found	1	31-clique-communities
+Found	1	33-clique-communities
+Found	1	39-clique-communities
+Found	1	45-clique-communities
+Found	1	46-clique-communities
+Found	1	36-clique-communities
+Found	9	15-clique-communities
+Found	8	16-clique-communities
+Found	5	17-clique-communities
+Found	3	18-clique-communities
+Found	3	20-clique-communities
+Found	3	26-clique-communities
+Found	2	27-clique-communities
+Found	1	35-clique-communities
+Found	1	37-clique-communities
+Found	1	41-clique-communities
+Found	1	47-clique-communities
+Found	1	50-clique-communities
+Found	4	23-clique-communities
+Found	154	5-clique-communities
+Found	58	8-clique-communities
+Found	22	12-clique-communities
+Found	4	25-clique-communities
+Found	1	34-clique-communities
+Found	1	38-clique-communities
+Found	43	9-clique-communities
+Found	35	10-clique-communities
+Found	29	11-clique-communities
+Found	18	13-clique-communities
+Found	10	14-clique-communities
+Found	3	19-clique-communities
+Found	3	21-clique-communities
+Found	4	22-clique-communities
+Found	4	24-clique-communities
+Found	2	28-clique-communities
+Found	1	29-clique-communities
+Found	1	30-clique-communities
+Found	1	32-clique-communities
+Found	1	40-clique-communities
+Found	1	43-clique-communities
+Found	1	48-clique-communities
+Found	1	49-clique-communities
+Found	114	6-clique-communities
+Found	70	7-clique-communities
+Found	241	4-clique-communities
+Found	326	3-clique-communities
