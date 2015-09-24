@@ -12,6 +12,7 @@ sudo apt-get -y install subversion
 svn checkout svn://svn.code.sf.net/p/cosparallel/code/trunk cosparallel-code
 cd cosparallel-code
 ./configure
+make
 cd extras
 make
 )
