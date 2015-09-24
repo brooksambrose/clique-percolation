@@ -2,12 +2,12 @@
 ### Author: Brooks Ambrose (brooksambrose@berkeley.edu)
 
 ### install igraph http://igraph.org/c/
-sudo apt-get install libigraph0 libigraph0-dev
+sudo apt-get -y install libigraph0 libigraph0-dev
 
 ### install COS parallel (Clique percolation On Steroids)
 # Enrico Gregori, Luciano Lenzini, Simone Mainardi, "Parallel k-Clique Community Detection on Large-Scale Networks," IEEE Transactions on Parallel and Distributed Systems
 # http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6249683
-sudo apt-get install subversion
+sudo apt-get -y install subversion
 (cd ~/
 svn checkout svn://svn.code.sf.net/p/cosparallel/code/trunk cosparallel-code
 cd cosparallel-code
