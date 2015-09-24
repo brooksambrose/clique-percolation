@@ -22,5 +22,5 @@ mkdir out49utel
 zcat in49/bel2mel-49utel.txt.gz | cut -f1-2 > out49utel/49utel.twocol.txt
 cd out49utel
 ~/cosparallel-code/extras/maximal_cliques 49utel.twocol.txt
-~cosparallel-code/cos -P 1 49utel.twocol.txt.mcliques
+~/cosparallel-code/cos -P 1 49utel.twocol.txt.mcliques
 
