@@ -84,7 +84,7 @@ We instead implement the parallelized [Clique percolation On Steroids](http://so
 
 # Run a Big Job
 
-To run a clique percolation analysis on the entire 1900-1999 database, enter the following, entering the password at the prompt:
+To run a clique percolation analysis on the entire 1900-1999 database, enter the following:
 
 ```
 cd ~/
