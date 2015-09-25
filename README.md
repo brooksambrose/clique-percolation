@@ -16,16 +16,19 @@ time bash -v install.sh
 If you are successful the bottom of your output will look something like:  
 
 ```
-Found	43	9-clique-communities  
-Found	70	7-clique-communities  
-Found	154	5-clique-communities  
-Found	58	8-clique-communities  
-Found	241	4-clique-communities  
-Found	326	3-clique-communities  
+Found	709	6-clique-communities
+Found	843	5-clique-communities
+Found	1066	3-clique-communities
 
-real	0m3.358s  
-user	0m1.261s  
-sys	0m0.515s  
+real	0m0.587s
+user	0m0.553s
+sys	0m0.024s
+
+### Time to run install.sh including tests:
+
+real	0m4.206s
+user	0m2.131s
+sys	0m0.414s
 ```
 
 #Data
