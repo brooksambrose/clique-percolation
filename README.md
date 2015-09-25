@@ -77,3 +77,15 @@ Clique percolation is a method for detecting k-clique community structure in lar
 We instead implement the parallelized [Clique percolation On Steroids](http://sourceforge.net/p/cosparallel/wiki/Home/) (COS) method to accommodate the larger scale of our data. Details of the COS method are described in:
 
 >Enrico Gregori, Luciano Lenzini, Simone Mainardi, "[Parallel k-Clique Community Detection on Large-Scale Networks](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6249683)," IEEE Transactions on Parallel and Distributed Systems 24(8):1651–60.
+
+# Run a Big Job
+
+To run a clique percolation analysis on the entire 1900-1999 database, enter the following, entering the password at the prompt:
+
+```
+cd ~/
+time git clone https://github.com/brooksambrose/clique-percolation-data
+cd ~/clique-percolation
+time bash -v bigjob.sh
+```
+
