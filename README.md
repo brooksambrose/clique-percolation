@@ -12,7 +12,6 @@ git clone https://github.com/brooksambrose/clique-percolation
 cd ~/clique-percolation
 time bash -v install.sh
 
-
 ```
 
 If you are successful the bottom of your output will look something like:  
@@ -92,7 +91,6 @@ cd ~/
 time git clone https://github.com/brooksambrose/clique-percolation-data
 cd ~/clique-percolation
 time bash -v bigjob.sh
-
 
 ```
 
