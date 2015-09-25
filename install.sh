@@ -18,6 +18,12 @@ cd extras
 make
 )
 
+### Description of maximal cliques analysis
+~/cosparallel-code/extras/maximal_cliques
+
+### Description of cos analysis
+~/cosparallel-code/cos
+
 ### Test on 1900-1949 data as smaller UT-CR-UT network
 cd ~/clique-percolation
 mkdir out49utel
