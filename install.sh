@@ -28,7 +28,7 @@ time ~/cosparallel-code/cos -P 1 -W 29.9 49utel.twocol.txt.mcliques
 
 ### Test on 1900-1949 data as larger CR-UT-CR network
 cd ~/clique-percolation
-mkdir out49utel
+mkdir out49crel
 zcat in49/bel2mel-49crel.txt.gz | cut -f1-2 > out49crel/49crel.twocol.txt
 cd out49crel
 time ~/cosparallel-code/extras/maximal_cliques 49crel.twocol.txt
