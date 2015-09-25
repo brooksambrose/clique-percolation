@@ -2,6 +2,32 @@
 
 This repo is an implementation of k-clique community detection to study the citation networks of articles in U.S. social science journals from 1900 to 2009. The data are stored in network edgelist format and are derived from the Thompson Reuters™ Web of Knowledge (WOK) database.
 
+#Quick Start
+
+To install software for clique percolation on an Ubuntu system and run a test on sample data, enter these commands:
+
+```
+cd ~/
+git clone https://github.com/brooksambrose/clique-percolation
+cd ~/clique-percolation
+time bash -v install.sh
+```
+
+If you are successful the bottom of your output will look something like:  
+
+```
+Found	43	9-clique-communities  
+Found	70	7-clique-communities  
+Found	154	5-clique-communities  
+Found	58	8-clique-communities  
+Found	241	4-clique-communities  
+Found	326	3-clique-communities  
+
+real	0m3.358s  
+user	0m1.261s  
+sys	0m0.515s  
+```
+
 #Data
 
 The `in49` and `in99` directories contain the main network edgelist data as compressed text files as described below. The `levels` directory contains compressed text files that are lists of standardized WOK codes in which the order of the list corresponds to the index numbers in the corresponding edgelist files.
