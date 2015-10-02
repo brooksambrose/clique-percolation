@@ -42,11 +42,11 @@ The `in49` directory contains a smaller set of edgelists covering selected journ
 
 ###Original Citations Codes 
 
-- `bel2mel-49crel.txt.gz` is a weighted CR-UT-CR edgelist of 123,055 lines.
+- `bel2mel-49crel.txt.gz` is a weighted CR-UT-CR edgelist of 123,055 lines and 10,874 unique vertex ids.
 
 CR-UT-CR refers to the WOK codes for cited references (CR) and the record id (UT) of the citing article, thus CR-UT-CR indicates a monopartite network of citations tied by the number of articles containing each in their list of references.
 
-- `bel2mel-49utel.txt.gz` is a weighted UT-CR-UT edgelist of 12,719 lines.
+- `bel2mel-49utel.txt.gz` is a weighted UT-CR-UT edgelist of 12,719 lines and 3,108 unique vertex ids.
 
 This monopartite edgelist (*mel*, projected from a bipartite edgelist *bel*) is the inverse of `bel2mel-49crel`. It represents a network of articles tied by the number of citations shared in common between their list of references. 
 
@@ -54,17 +54,17 @@ This monopartite edgelist (*mel*, projected from a bipartite edgelist *bel*) is 
 
 To correct a nontrivial level of error and natural variation in the coding of citations over several decades of citation indexing, a machine learning approach to the identity resolution of WOK citation codes was performed. Files with the `z` prefix refer to error-corrected or resolved identity edgelists. These lists are longer because citations were selected for inclusion in the analysis only if they were cited by more than one article; identity resolution has the consequence of saving otherwise solitary codes from exclusion by subsuming them under a set of identified variations (`z` referring to fu*zz*y sets of variations).
 
-- `bel2mel-49zcrel.txt.gz` is a resolved identity CR-UT-CR edgelist of 139,032 lines.
-- `bel2mel-49zutel.txt.gz` is a resolved identity UT-CR-UT edgelist of 15,420 lines.
+- `bel2mel-49zcrel.txt.gz` is a resolved identity CR-UT-CR edgelist of 139,032 lines and 11,998 unique vertex ids.
+- `bel2mel-49zutel.txt.gz` is a resolved identity UT-CR-UT edgelist of 15,420 lines and 3,524 unique vertex ids.
 
 ##1900-2009
 
 The `in99` directory contains larger edgelists covering selected journals in the social sciences from 1900-2009 roughly, including all data from the 1900-1949 subset and with partial coverage extending to 2015. We use the prefix `99` because 1999 will be the extent of the analytical window and to remind the user that these data are later and larger than the `49` data.
 
-- `bel2mel-99crel.txt.gz` is a CR-UT-CR edgelist of 27,303,359 lines.
-- `bel2mel-99utel.txt.gz` is a UT-CR-UT edgelist of 13,485,947 lines.
-- `bel2mel-99zcrel.txt.gz` is a resolved identity CR-UT-CR edgelist of 27,797,685 lines.
-- `bel2mel-99zutel.txt.gz` is a resolved identity UT-CR-UT edgelist of 13,702,183 lines.
+- `bel2mel-99crel.txt.gz` is a CR-UT-CR edgelist of 27,303,359 lines and 350,816 unique vertex ids.
+- `bel2mel-99utel.txt.gz` is a UT-CR-UT edgelist of 13,485,947 lines and 85,477 unique vertex ids.
+- `bel2mel-99zcrel.txt.gz` is a resolved identity CR-UT-CR edgelist of 27,797,685 lines and 352,151 unique vertex ids.
+- `bel2mel-99zutel.txt.gz` is a resolved identity UT-CR-UT edgelist of 13,702,183 lines and 86,549 unique vertex ids.
 
 #Software
 
