@@ -14,6 +14,12 @@ time bash -v install.sh
 
 ```
 
+Then to test the installation:
+
+```
+time bash -v test.sh
+
+```
 If you are successful the bottom of your output will look something like:  
 
 ```
